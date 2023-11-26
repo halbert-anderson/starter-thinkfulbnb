@@ -30,33 +30,32 @@ section.alternate-background {
   color: #fff;
 }
 
-main img {
-  width: 100px;
+/* so images can fill there container*/
+ img { 
+  width: 100%;
 }
 
-/* ---  Groups & Items --- */
+
+
+/* ---  Groups & Items & Classes --- */
 
 .group {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
 }
 
 .item {
   flex: 1;
   margin: 10px;
+  
 }
 
 .item-double {
   flex: 2;
 }
 
-/* -------  Navigation ------- */
 
-header {
-  background-color: #ff385c;
-  padding: 20px 20px 0 20px;
-  text-align: center;
-}
 
 .logo {
   font-family: "Pangolin", cursive;
@@ -64,15 +63,46 @@ header {
   color: #fff;
 }
 
-header nav ul li {
-  list-style-type: none;
+/* -------  Navigation ------- */
+
+header {
+  background-color: #ff385c;
+  padding: 20px 20px 0px 20px;
+  /* keeps the logo centered as the width of the screen changes until media query at 768px*/
+  text-align: center;
 }
+header nav{
+  display:flex; 
+  /* keeps the nav bar centered as the width of the screenn changes*/
+  justify-content: center;
+  
+}
+header nav ul{
+
+  /* Changes the display property from its default to `flex`, the default 
+     flex-direction for flex is row, so the navigation will displays in a single row*/
+     display: flex;
+  
+  /* Removes the default padding to the left of the unordered list.*/
+      padding-left: 0;
+ 
+  /* Removes the bullet points from the list items within the unordered list.*/
+     list-style: none; 
+  
+}
+
 
 header nav ul li a {
   color: #fff;
   text-decoration: none;
-  padding: 0 20px 0 0;
+  margin: 0 20px 0 0;
 }
+
+header nav ul li:last-child a {   
+    /* Removes the margin to the right of the last anchor tag so that the nav appears centered. */
+       margin-right: 0;
+    /*padding: 0 0 0 0;*/
+  }
 
 header nav ul li a:hover {
   color: #bdbdbd;
@@ -82,7 +112,7 @@ header nav ul li a:hover {
 /* -------  Search Form ------- */
 form {
   border: 2px solid #ff385c;
-  padding: 10px;
+     padding: 10px;
 }
 
 form label {
@@ -104,6 +134,14 @@ form button {
   width: 100%;
 }
 
+
+form  div div{
+  display:flex;
+ /*keeps the label and input on opposite ends of the div conatiner*/
+ justify-content: space-between;
+  /*border: 1px solid red;*/
+}
+
 /* -------  Footer ------- */
 
 footer {
@@ -116,4 +154,70 @@ footer p {
   padding: 20px;
 }
 
+
+
+
+
+
+
 /* -------  Media Query ------- */
+@media all and (min-width: 768px) {
+
+  /* -------  General Styles ------- */
+ header {
+
+    display: flex;
+    /* Pushes the items (the title and nav) to the far sides of the 
+
+       browser with space between them. */
+
+    justify-content: space-between;
+
+    /* Adds 0 pixels padding top and bottom, and 30 pixels padding 
+
+       left and right. */
+
+    padding: 0 30px;
+
+  }
+
+  
+  section {
+    padding: 0 10%;
+  }
+ 
+  
+
+/* -------  Navigation ------- */
+
+  header nav {
+    /* Pushes the navigation container down by 8 pixels to make it
+       present a little better visually within the space.*/
+       margin-top: 8px;
+ }
+
+  /* Users cannot hover on mobile devices, so that is why you
+     implement this behavior only for larger screens. */
+   header nav ul li a:hover {
+    /* Targets the change when a user holds the pointer over the anchor tag 
+       (link) within the list items within the unordered list that 
+       is within the navigation that is within the header. */
+    color: #bdbdbd;
+  }
+
+/* ---  Groups & Items & Classes --- */
+
+  .group {
+    flex-direction: row;
+  /* alinging items to be centered vetically*/  
+     align-items: center;
+  }
+  
+  .group-columned{
+    flex-direction: column ;
+  }
+  
+   .items-stacked{
+    flex-direction: column;
+   }
+}  
