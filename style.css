@@ -2,6 +2,7 @@
 
 body {
   font-family: "Lato", sans-serif;
+  width: 100%;
 }
 
 h2 {
@@ -186,7 +187,7 @@ footer p {
     padding: 0 10%;
   }
  
-  
+  main section div div{flex-wrap:wrap;}
 
 /* -------  Navigation ------- */
 
