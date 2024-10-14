@@ -15,7 +15,7 @@ This project implements the Thinkfulbnb landing page using **HTML** and **CSS**,
   - [Desktop View](#desktop-view)
 - [Media Queries](#media-queries)
 - [Technologies Used](#technologies-used)
-- [Thinkfulbnb views](thinkfulbnb-views)
+- [Thinkfulbnb views](#thinkfulbnb-views)
   - [Mobile Views](#mobile-views)
   - [Desktop Views](#desktop-views)
   - [Existing files](#existing-files)
