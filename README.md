@@ -174,7 +174,7 @@ Edit the `index.html` and `style.css` as needed to achieve the following require
     - Tiny House
     - Yacht
     - Yurt
-  - a `"Search"` button
+  - a `"Search"` button 
 
 -  Add CSS to the form so that
   - the labels (i.e., "Location", "Arrive", "Depart", "Type") and their corresponding form fields are aligned towards the opposite ends of each row
