@@ -112,7 +112,7 @@ Media queries are used to implement the desktop layout. Specifically, a media qu
 
 ## Thinkfulbnb views
 
-The UX designer provided you with the following user interface mockups:
+The UX designer provided the following user interface mockups:
 
 ### Mobile views
 
