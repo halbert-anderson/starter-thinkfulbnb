@@ -16,13 +16,13 @@ This project implements the Thinkfulbnb landing page using **HTML** and **CSS**,
 - [Media Queries](#media-queries)
 - [Technologies Used](#technologies-used)
 - [Thinkfulbnb views](thinkful-views)
-  - [Mobile View](#mobile-view)
-  - [Desktop View](#desktop-view)
+  - [Mobile Views](#mobile-views)
+  - [Desktop Views](#desktop-views)
   - [Existing files](#existing-files)
   - [Setup](#setup)
   - [Tasks](#tasks)
       - [Navigation](#navigation)
-      - [Media query: Desktop view](#media-query:-desktop-view)
+      - [Media query](#media-query)
       - [Responsive images](#responsive-images)
       - [Vertical content alignment](#vertical-content-alignment)
       - [HTML form](#html-form)
@@ -114,11 +114,11 @@ Media queries are used to implement the desktop layout. Specifically, a media qu
 
 The UX designer provided you with the following user interface mockups:
 
-### Mobile view
+### Mobile views
 
 ![](images/Thinkfulbnb-mobile.png)
 
-### Desktop view
+### Desktop views
 
 ![](images/Thinkfulbnb-desktop.png)
 
