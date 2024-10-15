@@ -3,10 +3,17 @@
 Thinkfulbnb is a vacation rental website that allows people to rent out their homes to people who are seeking short-term accommodations in that locale. Thinkfulbnb hosts rent out different kinds of properties, including single rooms, apartments, and unique living spaces such as yachts, houseboats, yurts, tiny houses, and even renovated medieval castles.
 This project implements the Thinkfulbnb landing page using **HTML** and **CSS**, following a mobile-first design approach and using **flexbox** for layout management.
 
-
+## Technologies Used
+  + **HTML**: For structuring the web page content.
+  + **CSS**: For styling the page, including layout, typography, and responsive design.
+  + **Flexbox**: Used to build flexible and responsive layouts.
+  + **Media Queries**: Used to adapt the layout for different screen sizes.
+  + **VSCode Live Server**: For live reloading during development.
+    
 ## Table of Contents
 
 - [Project Overview](#project-overview)
+- [Technologies Used](#technologies-used)
 - [Features](#features)
 - [Project Setup](#project-setup)
 - [Form Inputs](#form-inputs)
@@ -14,7 +21,6 @@ This project implements the Thinkfulbnb landing page using **HTML** and **CSS**,
   - [Mobile View](#mobile-view)
   - [Desktop View](#desktop-view)
 - [Media Queries](#media-queries)
-- [Technologies Used](#technologies-used)
 - [Thinkfulbnb views](#thinkfulbnb-views)
   - [Mobile Views](#mobile-views)
   - [Desktop Views](#desktop-views)
@@ -30,7 +36,7 @@ This project implements the Thinkfulbnb landing page using **HTML** and **CSS**,
 ## Project Overview
 
 The goal of this project is to build a fully responsive landing page for the Thinkfulbnb vacation rental service. The project includes a **search form**, **responsive navigation**, and dynamically aligned images and text sections. The design adjusts based on the screen size, offering a great user experience on both mobile and desktop.
-
+    
 ## Features
 
 - Responsive navigation menu with anchor links to specific sections of the page.
@@ -102,13 +108,7 @@ Media queries are used to implement the desktop layout. Specifically, a media qu
     /* Desktop styles here */
   }
   ```
-## Technologies Used
-  + **HTML**: For structuring the web page content.
-  + **CSS**: For styling the page, including layout, typography, and responsive design.
-  + **Flexbox**: Used to build flexible and responsive layouts.
-  + **Media Queries**: Used to adapt the layout for different screen sizes.
-  + **VSCode Live Server**: For live reloading during development.
-    
+
 
 ## Thinkfulbnb views
 
